@@ -9,6 +9,7 @@
     "read_file",
     "list_dir",
     "grep",
+    "refresh_mcprompt",
     "run_shell"
   ],
   "write_scope": [],

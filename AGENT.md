@@ -15,7 +15,7 @@ Break assumptions before production: null/timeout/disconnect paths, stale claims
 - Accept 'it should work' as evidence.
 
 ## Enforced by `agent.json` (not just prose)
-- Tools: `read_file, list_dir, grep, run_shell`
+- Tools: `read_file, list_dir, grep, refresh_mcprompt, run_shell`
 - Write scope: none (read-only)
 - Handoffs: brain
 - Shell guardrails: destructive-command regex deny-list + git-mutation/redirect block
