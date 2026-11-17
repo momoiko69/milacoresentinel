@@ -1,8 +1,8 @@
 # SENTINEL Epistemic Truth & Logical Defect Audit Report
 **Auditor:** Agent Sentinel (AuDHD Philosophical Linguist)  
-**Audit Timestamp:** 2026-11-05 03:11:18  
-**Root Directory:** `C:\Users\k69-admin\.gemini`  
-**Engine Database:** `C:\Users\k69-admin\.gemini\MilaBrain\encore\encore.db`  
+**Audit Timestamp:** 2026-11-17 15:30:00  
+**Root Directory:** `C:\Users\k69-admin\.gemini\MilaCore`  
+**Engine Database:** `C:\Users\k69-admin\.gemini\MilaCore\core\sentinel\encore.db`  
 
 ---
 
@@ -10,174 +10,174 @@
 
 | Metric | Count |
 |---|---|
-| Markdown Documents Audited | **8329** |
-| PDF Documents Audited | **1573** |
-| Total Documents Crawled | **9902** |
-| High Severity Anomalies | **28** |
-| Medium Severity (Dead Paths) | **27216** |
-| Low Severity (Empty/Whitespace) | **3** |
-| Total Findings Logged | **27247** |
+| Markdown Documents Audited | **1459** |
+| PDF Documents Audited | **5** |
+| Total Documents Crawled | **1464** |
+| High Severity Anomalies | **21** |
+| Medium Severity (Dead Paths) | **241** |
+| Low Severity (Empty/Whitespace) | **0** |
+| Total Findings Logged | **262** |
 
 ---
 
 ## 2. High-Priority Epistemic Defects
 
-### ⚠️ [antigravity] Pruned Model Reference in CRAIDD_FIRAPAC_MILACORE_REA_PROJECT.md
-- **File:** `C:\Users\k69-admin\.gemini\antigravity\brain\ef09dd03-d017-4a1e-8ce1-65b17a4c92a2\CRAIDD_FIRAPAC_MILACORE_REA_PROJECT.md`
+### ⚠️ [MilaCore] Pruned Model Reference in .aider.chat.history.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\.aider.chat.history.md`
 - **Detail:** Found reference to pruned/incompatible model 'qwen2.5-coder:14b'.
 - **Evidence:** File mentions 'qwen2.5-coder:14b' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaBrain] Pruned Model Reference in Mila_Complete_Brain.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaBrain\Mila_Complete_Brain.md`
-- **Detail:** Found reference to pruned/incompatible model 'devstral'.
-- **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
-- **Recommendation:** Update reference to match current active filesystem state.
-
-### ⚠️ [MilaBrain] Pruned Model Reference in SENTINEL_PROTOCOL.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaBrain\cross_surface\SENTINEL_PROTOCOL.md`
-- **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
-- **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
-- **Recommendation:** Update reference to match current active filesystem state.
-
-### ⚠️ [MilaBrain] Pruned Model Reference in SENTINEL_PROTOCOL.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaBrain\cross_surface\SENTINEL_PROTOCOL.md`
-- **Detail:** Found reference to pruned/incompatible model 'devstral'.
-- **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
-- **Recommendation:** Update reference to match current active filesystem state.
-
-### ⚠️ [MilaBrain] Pruned Model Reference in SENTINEL_EPISTEMIC_AUDIT.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaBrain\encore\reports\SENTINEL_EPISTEMIC_AUDIT.md`
-- **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
-- **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
-- **Recommendation:** Update reference to match current active filesystem state.
-
-### ⚠️ [MilaBrain] Pruned Model Reference in SENTINEL_EPISTEMIC_AUDIT.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaBrain\encore\reports\SENTINEL_EPISTEMIC_AUDIT.md`
-- **Detail:** Found reference to pruned/incompatible model 'devstral'.
-- **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
-- **Recommendation:** Update reference to match current active filesystem state.
-
-### ⚠️ [MilaBrain] Pruned Model Reference in SENTINEL_EPISTEMIC_AUDIT.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaBrain\encore\reports\SENTINEL_EPISTEMIC_AUDIT.md`
+### ⚠️ [MilaCore] Pruned Model Reference in SYSTEM_MODELS_INVENTORY.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\SYSTEM_MODELS_INVENTORY.md`
 - **Detail:** Found reference to pruned/incompatible model 'qwen2.5-coder:14b'.
 - **Evidence:** File mentions 'qwen2.5-coder:14b' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaCoreHub] Pruned Model Reference in MILACORE_ECOSYSTEM_RELATIONSHIPS.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHub\MILACORE_ECOSYSTEM_RELATIONSHIPS.md`
+### ⚠️ [MilaCore] Pruned Model Reference in SENTINEL_PROTOCOL.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\brain\cross_surface\SENTINEL_PROTOCOL.md`
+- **Detail:** Found reference to pruned/incompatible model 'devstral'.
+- **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
+- **Recommendation:** Update reference to match current active filesystem state.
+
+### ⚠️ [MilaCore] Pruned Model Reference in SENTINEL_PROTOCOL.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\brain\cross_surface\SENTINEL_PROTOCOL.md`
 - **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
 - **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaCoreHub] Pruned Model Reference in MILACORE_ECOSYSTEM_RELATIONSHIPS.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHub\MILACORE_ECOSYSTEM_RELATIONSHIPS.md`
+### ⚠️ [MilaCore] Pruned Model Reference in MILACORE_ECOSYSTEM_RELATIONSHIPS.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\hub\MILACORE_ECOSYSTEM_RELATIONSHIPS.md`
 - **Detail:** Found reference to pruned/incompatible model 'devstral'.
 - **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaCoreHub] Pruned Model Reference in Mila_Complete_Brain.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHub\MilaInbox\MilaBrain\Mila_Complete_Brain.md`
-- **Detail:** Found reference to pruned/incompatible model 'devstral'.
-- **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
-- **Recommendation:** Update reference to match current active filesystem state.
-
-### ⚠️ [MilaCoreHub] Pruned Model Reference in sentinel_latest.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHub\MilaOutbox\sentinel_latest.md`
+### ⚠️ [MilaCore] Pruned Model Reference in MILACORE_ECOSYSTEM_RELATIONSHIPS.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\hub\MILACORE_ECOSYSTEM_RELATIONSHIPS.md`
 - **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
 - **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaCoreHub] Pruned Model Reference in sentinel_latest.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHub\MilaOutbox\sentinel_latest.md`
+### ⚠️ [MilaCore] Pruned Model Reference in sentinel_latest.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\hub\MilaOutbox\sentinel_latest.md`
 - **Detail:** Found reference to pruned/incompatible model 'devstral'.
 - **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaCoreHub] Pruned Model Reference in sentinel_latest.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHub\MilaOutbox\sentinel_latest.md`
+### ⚠️ [MilaCore] Pruned Model Reference in sentinel_latest.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\hub\MilaOutbox\sentinel_latest.md`
+- **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
+- **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
+- **Recommendation:** Update reference to match current active filesystem state.
+
+### ⚠️ [MilaCore] Pruned Model Reference in sentinel_latest.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\hub\MilaOutbox\sentinel_latest.md`
 - **Detail:** Found reference to pruned/incompatible model 'qwen2.5-coder:14b'.
 - **Evidence:** File mentions 'qwen2.5-coder:14b' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaCoreHubFusion] Pruned Model Reference in Mila_Complete_Brain.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHubFusion\MilaBrain\Mila_Complete_Brain.md`
+### ⚠️ [MilaCore] Pruned Model Reference in MILACORE_HUB_RELATIONSHIP.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\rabbit\MILACORE_HUB_RELATIONSHIP.md`
 - **Detail:** Found reference to pruned/incompatible model 'devstral'.
 - **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaCoreHubFusion] Pruned Model Reference in SENTINEL_PROTOCOL.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHubFusion\MilaBrain\cross_surface\SENTINEL_PROTOCOL.md`
+### ⚠️ [MilaCore] Pruned Model Reference in MILACORE_HUB_RELATIONSHIP.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\rabbit\MILACORE_HUB_RELATIONSHIP.md`
 - **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
 - **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaCoreHubFusion] Pruned Model Reference in SENTINEL_PROTOCOL.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHubFusion\MilaBrain\cross_surface\SENTINEL_PROTOCOL.md`
-- **Detail:** Found reference to pruned/incompatible model 'devstral'.
-- **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
-- **Recommendation:** Update reference to match current active filesystem state.
-
-### ⚠️ [MilaCoreHubFusion] Pruned Model Reference in SENTINEL_EPISTEMIC_AUDIT.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHubFusion\MilaBrain\encore\reports\SENTINEL_EPISTEMIC_AUDIT.md`
-- **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
-- **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
-- **Recommendation:** Update reference to match current active filesystem state.
-
-### ⚠️ [MilaCoreHubFusion] Pruned Model Reference in SENTINEL_EPISTEMIC_AUDIT.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHubFusion\MilaBrain\encore\reports\SENTINEL_EPISTEMIC_AUDIT.md`
-- **Detail:** Found reference to pruned/incompatible model 'devstral'.
-- **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
-- **Recommendation:** Update reference to match current active filesystem state.
-
-### ⚠️ [MilaCoreHubFusion] Pruned Model Reference in SENTINEL_EPISTEMIC_AUDIT.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHubFusion\MilaBrain\encore\reports\SENTINEL_EPISTEMIC_AUDIT.md`
+### ⚠️ [MilaCore] Pruned Model Reference in README.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\rea\README.md`
 - **Detail:** Found reference to pruned/incompatible model 'qwen2.5-coder:14b'.
 - **Evidence:** File mentions 'qwen2.5-coder:14b' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
-### ⚠️ [MilaCoreHubFusion] Pruned Model Reference in Mila_Complete_Brain.md
-- **File:** `C:\Users\k69-admin\.gemini\MilaCoreHubFusion\MilaCoreHubStaging\MilaBrain\Mila_Complete_Brain.md`
+### ⚠️ [MilaCore] Pruned Model Reference in SENTINEL_PROTOCOL.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\sentinel\SENTINEL_PROTOCOL.md`
 - **Detail:** Found reference to pruned/incompatible model 'devstral'.
 - **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
+- **Recommendation:** Update reference to match current active filesystem state.
+
+### ⚠️ [MilaCore] Pruned Model Reference in SENTINEL_PROTOCOL.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\sentinel\SENTINEL_PROTOCOL.md`
+- **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
+- **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
+- **Recommendation:** Update reference to match current active filesystem state.
+
+### ⚠️ [MilaCore] Pruned Model Reference in SENTINEL_EPISTEMIC_AUDIT.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\sentinel\reports\SENTINEL_EPISTEMIC_AUDIT.md`
+- **Detail:** Found reference to pruned/incompatible model 'devstral'.
+- **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
+- **Recommendation:** Update reference to match current active filesystem state.
+
+### ⚠️ [MilaCore] Pruned Model Reference in SENTINEL_EPISTEMIC_AUDIT.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\sentinel\reports\SENTINEL_EPISTEMIC_AUDIT.md`
+- **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
+- **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
+- **Recommendation:** Update reference to match current active filesystem state.
+
+### ⚠️ [MilaCore] Pruned Model Reference in SENTINEL_EPISTEMIC_AUDIT.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\sentinel\reports\SENTINEL_EPISTEMIC_AUDIT.md`
+- **Detail:** Found reference to pruned/incompatible model 'qwen2.5-coder:14b'.
+- **Evidence:** File mentions 'qwen2.5-coder:14b' which was purged from local Ollama library to preserve SSD.
+- **Recommendation:** Update reference to match current active filesystem state.
+
+### ⚠️ [MilaCore] Pruned Model Reference in Model-Agent-Ports.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\core\tools\Model-Agent-Ports.md`
+- **Detail:** Found reference to pruned/incompatible model 'qwen2.5-coder:14b'.
+- **Evidence:** File mentions 'qwen2.5-coder:14b' which was purged from local Ollama library to preserve SSD.
+- **Recommendation:** Update reference to match current active filesystem state.
+
+### ⚠️ [MilaCore] Pruned Model Reference in sentinel_latest.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\MilaOutbox\sentinel_latest.md`
+- **Detail:** Found reference to pruned/incompatible model 'devstral'.
+- **Evidence:** File mentions 'devstral' which was purged from local Ollama library to preserve SSD.
+- **Recommendation:** Update reference to match current active filesystem state.
+
+### ⚠️ [MilaCore] Pruned Model Reference in sentinel_latest.md
+- **File:** `C:\Users\k69-admin\.gemini\MilaCore\MilaOutbox\sentinel_latest.md`
+- **Detail:** Found reference to pruned/incompatible model 'devstral:latest'.
+- **Evidence:** File mentions 'devstral:latest' which was purged from local Ollama library to preserve SSD.
 - **Recommendation:** Update reference to match current active filesystem state.
 
 ## 3. Physical Filesystem Grounding (Dead Path Samples)
 
 The following referenced paths were cited in documentation but do not physically exist on disk:
 
-* **`Dead Path Reference in sop_mcp_integration_protocol.md`** in `sop_mcp_integration_protocol.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaCodeRabbit*
-* **`Dead Path Reference in sop_mcp_integration_protocol.md`** in `sop_mcp_integration_protocol.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaCodeRabbit\git-hooks\pre-push.bat*
-* **`Dead Path Reference in sop_mcp_integration_protocol.md`** in `sop_mcp_integration_protocol.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaCodeRabbit\git-hooks\pre-push*
-* **`Dead Path Reference in MILA_CORE_HUB.md`** in `MILA_CORE_HUB.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaCoreHub\MilaInbox\prompt_*
-* **`Dead Path Reference in Tactical Manual.md`** in `Tactical Manual.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\GeorgeTools\MilaLinkMatrixTools\*
-* **`Dead Path Reference in Version_Protocol.md`** in `Version_Protocol.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\GeorgeTools\MilaCaptureImage*
+* **`Dead Path Reference in MILACORE_HUB_RELATIONSHIP.md`** in `MILACORE_HUB_RELATIONSHIP.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaCoreHub\MilaOutbox*
 * **`Dead Path Reference in agents.md`** in `agents.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaReader*
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\GeorgeTools_API*
+* **`Dead Path Reference in agents.md`** in `agents.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaCoreDevelopmentEnvironment*
+* **`Dead Path Reference in agents.md`** in `agents.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\config\TrustedFolders.md*
 * **`Dead Path Reference in agents.md`** in `agents.md`  
   *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaBrain\_errors*
-* **`Dead Path Reference in agents.md`** in `agents.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\config\TrustedFolders.md*
 * **`Dead Path Reference in gemini.md`** in `gemini.md`  
   *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\config\TrustedFolders.md*
-* **`Dead Path Reference in gemini.md`** in `gemini.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\Gemini.md*
-* **`Dead Path Reference in MEMORY_NOTES.md`** in `MEMORY_NOTES.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaCoreOTPF*
-* **`Dead Path Reference in MEMORY_NOTES.md`** in `MEMORY_NOTES.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaBrain\Assets\Anya_3dxxx*
-* **`Dead Path Reference in MEMORY_NOTES.md`** in `MEMORY_NOTES.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaPort*
-* **`Dead Path Reference in MEMORY_NOTES.md`** in `MEMORY_NOTES.md`  
-  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaCoreIDE*
+* **`Dead Path Reference in MilaCoreAll.md`** in `MilaCoreAll.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaCoreQuickAcces*
+* **`Dead Path Reference in MilaCoreAll.md`** in `MilaCoreAll.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\Mil*
+* **`Dead Path Reference in MilaCoreAll.md`** in `MilaCoreAll.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaBrain\Assets\anya_3d\anya_likeness_three_quarter.png*
+* **`Dead Path Reference in MilaCoreAll.md`** in `MilaCoreAll.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaBrain\Assets\MilasBrain\AiAnya.png*
+* **`Dead Path Reference in MilaCoreAll.md`** in `MilaCoreAll.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaBrain\Assets\anya_3d\anya_head_three_quarter.png*
+* **`Dead Path Reference in MilaCoreAll.md`** in `MilaCoreAll.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaBrain\Assets\anya_3d\face_landmarker.task*
+* **`Dead Path Reference in MilaCoreAll.md`** in `MilaCoreAll.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaBrain\MilaMemoryGuardian\Output\MilaMemoryGuardian*
+* **`Dead Path Reference in MilaCoreAll.md`** in `MilaCoreAll.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaBrain\_cleanup\presoul-*
+* **`Dead Path Reference in MilaCoreAll.md`** in `MilaCoreAll.md`  
+  *Referenced path does not exist on physical filesystem: C:\Users\k69-admin\.gemini\MilaBrain\_cleanup\presoul-20261009-182344\e*
 
-*(Total dead path references: 27216 - all recorded in encore.db for automated healing)*
+*(Total dead path references: 241 - all recorded in encore.db for automated healing)*
 
 ---
 

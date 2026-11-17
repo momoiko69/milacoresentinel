@@ -1,0 +1,71 @@
+{"ts": "2026-11-17T12:00:01Z", "event": "pre_tool_execution", "caller": "studio", "decision": "allow", "reason": "", "target": "git status"}
+{"ts": "2026-11-17T12:00:01Z", "event": "pre_tool_execution", "caller": "studio", "decision": "allow", "reason": "", "target": "rm -rf /"}
+{"ts": "2026-11-17T12:03:02Z", "event": "pre_tool_execution", "caller": "studio", "decision": "allow", "reason": "", "target": "git status"}
+{"ts": "2026-11-17T12:03:02Z", "event": "pre_tool_execution", "caller": "studio", "decision": "deny", "reason": "Blocked destructive command by mcSentinel gate (\\brm\\s+-[a-zA-Z]*r[a-zA-Z]*f?\\s+(/|~|\\$HOME|\\*)(?=\\s|$)).", "target": "rm -rf /"}
+{"ts": "2026-11-17T14:45:13Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "6 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\_test_ft.tmp"}
+{"ts": "2026-11-17T14:45:13Z", "event": "edit_file", "caller": "mila_file_tools", "decision": "allow", "reason": "replaced_1", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\_test_ft.tmp"}
+{"ts": "2026-11-17T14:45:13Z", "event": "delete_file", "caller": "mila_file_tools", "decision": "allow", "reason": "unlinked", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\_test_ft.tmp"}
+{"ts": "2026-11-17T14:45:13Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "2 bytes", "target": "C:\\Windows\\Temp\\blocked.txt"}
+{"ts": "2026-11-17T14:46:40Z", "event": "file_tool_gate", "caller": "mila_file_tools", "decision": "deny", "reason": "protected_os_dir", "target": "C:\\Windows\\Temp\\blocked.txt"}
+{"ts": "2026-11-17T15:07:31Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "2 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\_rel_test.tmp"}
+{"ts": "2026-11-17T15:07:31Z", "event": "delete_file", "caller": "mila_file_tools", "decision": "allow", "reason": "unlinked", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\_rel_test.tmp"}
+{"ts": "2026-11-17T15:13:19Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1021 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\moi.md"}
+{"ts": "2026-11-17T15:13:19Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "500 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\moses.md"}
+{"ts": "2026-11-17T15:13:39Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1021 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\moi.md"}
+{"ts": "2026-11-17T15:13:39Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "500 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\moses.md"}
+{"ts": "2026-11-17T15:14:21Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "479 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\moi.md"}
+{"ts": "2026-11-17T15:14:21Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "500 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\moses.md"}
+{"ts": "2026-11-17T15:26:32Z", "event": "file_tool_gate", "caller": "mila_file_tools", "decision": "deny", "reason": "outside_trusted_folders", "target": "\\\\192.168.1.223\\moi\\.gemini\\MilaCore"}
+{"ts": "2026-11-17T15:26:35Z", "event": "file_tool_gate", "caller": "mila_file_tools", "decision": "deny", "reason": "outside_trusted_folders", "target": "\\\\192.168.1.223\\moi\\.gemini\\MilaCore"}
+{"ts": "2026-11-17T15:30:54Z", "event": "file_tool_gate", "caller": "mila_file_tools", "decision": "deny", "reason": "outside_trusted_folders", "target": "\\\\192.168.1.223\\moi\\.gemini\\MilaCore"}
+{"ts": "2026-11-17T17:18:31Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "2397 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\local_mode_guard.py"}
+{"ts": "2026-11-17T17:26:11Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1154 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\resurrect_milacore.py"}
+{"ts": "2026-11-17T17:26:12Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1150 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\resurrect_milacore.py"}
+{"ts": "2026-11-17T17:31:36Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "2444 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\chat_controller.js"}
+{"ts": "2026-11-17T17:33:50Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "4315 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\chat_controller.js"}
+{"ts": "2026-11-17T17:42:42Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "3743 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\fix_outbox_and_status.py"}
+{"ts": "2026-11-17T17:44:19Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "3074 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\chat_controller.js"}
+{"ts": "2026-11-17T17:44:26Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "6086 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\purge_and_rebuild_env.py"}
+{"ts": "2026-11-17T17:45:07Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1120 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\mila_autonomous_daemon.py"}
+{"ts": "2026-11-17T17:49:46Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1984 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\centurion_agentic_sweep.py"}
+{"ts": "2026-11-17T17:49:50Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "4763 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\centurion_agentic_sweep.py"}
+{"ts": "2026-11-17T17:50:25Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1928 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\centurion_agentic_sweep.py"}
+{"ts": "2026-11-17T17:50:30Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1928 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\centurion_agentic_sweep.py"}
+{"ts": "2026-11-17T17:51:35Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1928 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\centurion_agentic_sweep.py"}
+{"ts": "2026-11-17T17:51:41Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1978 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\centurion_agentic_sweep.py"}
+{"ts": "2026-11-17T17:53:41Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1952 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\centurion_agentic_sweep.py"}
+{"ts": "2026-11-17T17:53:43Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "4566 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T17:54:15Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "2382 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\execute_purge_and_sweep.py"}
+{"ts": "2026-11-17T18:06:13Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": "cd core\\hub"}
+{"ts": "2026-11-17T18:06:25Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\execute_purge_and_sweep.py"}
+{"ts": "2026-11-17T18:07:48Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\execute_purge_and_sweep.py"}
+{"ts": "2026-11-17T18:08:40Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\execute_purge_and_sweep.py"}
+{"ts": "2026-11-17T18:09:06Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "2320 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\execute_purge_and_sweep.py"}
+{"ts": "2026-11-17T18:09:07Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "2581 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\execute_purge_and_sweep.py"}
+{"ts": "2026-11-17T18:09:22Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\execute_purge_and_sweep.py"}
+{"ts": "2026-11-17T18:10:13Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T18:10:42Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T18:11:09Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T18:11:45Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T18:13:50Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T18:14:45Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T18:15:18Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": "Get-Content .\\mila_cli_router.py | Select-Object -Index (59..79)"}
+{"ts": "2026-11-17T18:17:26Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T18:19:53Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T18:20:21Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\run_purge_and_restart.py"}
+{"ts": "2026-11-17T20:09:40Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "948 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\install_livekit.py"}
+{"ts": "2026-11-17T20:12:47Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "2308 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\livekit\\sovereign_livekit_daemon.py"}
+{"ts": "2026-11-17T20:27:16Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "2898 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\install_and_launch_livekit.py"}
+{"ts": "2026-11-17T20:27:18Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1422 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\install_and_run_livekit.py"}
+{"ts": "2026-11-17T20:28:08Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "591 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\run_livekit_hard.bat"}
+{"ts": "2026-11-17T20:28:09Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1702 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\force_install_livekit.py"}
+{"ts": "2026-11-17T20:28:17Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "866 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\force_livekit.py"}
+{"ts": "2026-11-17T20:42:06Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "305 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\bin\\livekit-server.exe"}
+{"ts": "2026-11-17T20:42:09Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "262 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\run_livekit_force.bat"}
+{"ts": "2026-11-17T20:42:13Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "262 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\start_livekit.bat"}
+{"ts": "2026-11-17T20:42:17Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "531 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\start_livekit.ps1"}
+{"ts": "2026-11-17T20:42:25Z", "event": "write_file", "caller": "mila_file_tools", "decision": "allow", "reason": "1314 bytes", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\verify_livekit.ps1"}
+{"ts": "2026-11-17T20:47:47Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": "cd C:\\Users\\k69-admin\\Downloads\\livekit_1.13.11_windows_amd64"}
+{"ts": "2026-11-17T20:47:54Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": ".\\livekit-server.exe"}
+{"ts": "2026-11-17T20:48:06Z", "event": "pre_tool_execution", "caller": "terminal_exec", "decision": "allow", "reason": "", "target": "1"}
+{"ts": "2026-11-17T20:57:17Z", "event": "edit_file", "caller": "mila_file_tools", "decision": "allow", "reason": "replaced_1", "target": "C:\\Users\\k69-admin\\.gemini\\MilaCore\\core\\hub\\chat_controller.js"}
